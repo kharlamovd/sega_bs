@@ -4,6 +4,8 @@
 #include "gens.h"
 #ifdef GENS_DEBUG
 
+//comment
+
 extern int adr_mem;
 extern int nb_inst;
 extern int pattern_pal;
