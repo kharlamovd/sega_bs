@@ -16,7 +16,7 @@
 
 
 /* Defines */
-
+//константы
 #ifndef PI
 #define PI 3.14159265358979323846
 #endif
@@ -59,7 +59,7 @@ fprintf(psg_debug_file, (x), (a), (b), (c), (d));
 
 
 /* Variables */
-
+//переменные-строки
 unsigned int PSG_SIN_Table[16][512];
 unsigned int PSG_Step_Table[1024];
 unsigned int PSG_Volume_Table[16];
@@ -74,7 +74,7 @@ FILE *psg_debug_file = NULL;
 
 
 /* Gens specific extern and variables */
-
+//заголовки функций
 extern unsigned int Sound_Extrapol[312][2];
 extern int Seg_L[882], Seg_R[882];
 extern int VDP_Current_Line;

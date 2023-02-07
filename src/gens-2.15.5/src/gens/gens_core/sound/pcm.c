@@ -23,6 +23,7 @@ int PCM_Volume_Tab[256 * 256];
 int PCM_Enable;
 
 /* initialise the pcm chip */
+//инициация ШИМ
 int
 Init_PCM (int Rate)
 {
@@ -54,6 +55,7 @@ Init_PCM (int Rate)
 }
 
 /* reset the pcm chip */
+//сброс ШИМ
 void
 Reset_PCM (void)
 {
