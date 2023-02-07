@@ -151,7 +151,7 @@ unzlocal_getByte (FILE * fin, int *pi)
     }
 }
 
-
+прочитать число из потока
 /* ===========================================================================
    Reads a long in LSB order from the given gz_stream. Sets 
 */
