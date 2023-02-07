@@ -39,6 +39,8 @@
 #define print_usage(option, helpmsg) fprintf(stderr, MM option " : " helpmsg "\n")
 #define print_usage2(option, helpmsg) fprintf(stderr, MM ENABLE "-" option ", " MM DISABLE "-" option " : " helpmsg "\n")
 
+//parse, baby, parse
+
 static void _usage()
 {
 	fprintf (stderr, "Gens for Linux v2.13alpha\n");
