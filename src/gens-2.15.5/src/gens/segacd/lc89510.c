@@ -45,7 +45,7 @@ CDD_Reset (void)
 void
 CDC_Reset (void)
 {
-  //int i;
+  //int i, k;
 
   // Reseting CDC
 
