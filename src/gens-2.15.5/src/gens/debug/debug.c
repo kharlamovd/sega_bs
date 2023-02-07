@@ -43,6 +43,12 @@ char Dbg_EA_Str[16];
 char Dbg_Size_Str[3];
 char Dbg_Cond_Str[3];
 
+/*
+ *	Метод отладки события
+ *
+ *	@var int key 
+ */
+
 void
 Debug_Event (int key)
 {
@@ -414,6 +420,10 @@ Next_Long (void)
 }
 
 
+/*
+ *обновление 
+ *M68k
+ */
 void
 Refresh_M68k_Inst (void)
 {
@@ -435,7 +445,10 @@ Refresh_M68k_Inst (void)
     }
 }
 
-
+/*
+ *обновление 
+ *S68k
+ */
 void
 Refresh_S68k_Inst (void)
 {
@@ -457,7 +470,10 @@ Refresh_S68k_Inst (void)
     }
 }
 
-
+/*
+ *обновление 
+ *Z80
+ */
 void
 Refresh_Z80_Inst (void)
 {
@@ -508,6 +524,10 @@ Refresh_SH2_Inst (int num)
 }
 
 
+/*
+ *обновление памяти
+ *M68k
+ */
 void
 Refresh_M68k_Mem (void)
 {
@@ -531,7 +551,10 @@ Refresh_M68k_Mem (void)
     }
 }
 
-
+/*
+ *обновление памяти
+ *S68k
+ */
 void
 Refresh_S68k_Mem (void)
 {
@@ -557,7 +580,10 @@ Refresh_S68k_Mem (void)
     }
 }
 
-
+/*
+ *обновление памяти
+ *Z80
+ */
 void
 Refresh_Z80_Mem (void)
 {
@@ -578,6 +604,10 @@ Refresh_Z80_Mem (void)
 }
 
 
+/*
+ *обновление памяти
+ *SH2
+ */
 void
 Refresh_SH2_Mem (void)
 {
@@ -601,7 +631,10 @@ Refresh_SH2_Mem (void)
     }
 }
 
-
+/*
+ *обновление состояния
+ *M68k
+ */
 void
 Refresh_M68k_State (void)
 {
@@ -638,7 +671,10 @@ Refresh_M68k_State (void)
 //      Print_Text(_GString, strlen(_GString) - 1, 162, 210, BLANC);
 }
 
-
+/*
+ *обновление состояния
+ *S68k
+ */
 void
 Refresh_S68k_State (void)
 {
@@ -675,7 +711,10 @@ Refresh_S68k_State (void)
   Print_Text (_GString, strlen (_GString) - 1, 162, 202, BLANC);
 }
 
-
+/*
+ *обновление состояния
+ *Z80
+ */
 void
 Refresh_Z80_State (void)
 {
@@ -713,7 +752,10 @@ Refresh_Z80_State (void)
   Print_Text (_GString, strlen (_GString) - 1, 162, 194, BLANC);
 }
 
-
+/*
+ *обновление состояния
+ *SH2
+ */
 void
 Refresh_SH2_State (int num)
 {
@@ -758,7 +800,10 @@ Refresh_SH2_State (int num)
   Print_Text (_GString, strlen (_GString) - 1, 162, 202, BLANC);
 }
 
-
+/*
+ *обновление состояния
+ *VDP
+ */
 void
 Refresh_VDP_State (void)
 {
@@ -811,7 +856,10 @@ Refresh_VDP_State (void)
   Print_Text (_GString, strlen (_GString), 162, 118, BLANC);
 }
 
-
+/*
+ *обновление узора
+ *VDP
+ */
 void
 Refresh_VDP_Pattern (void)
 {
@@ -828,7 +876,10 @@ Refresh_VDP_Pattern (void)
   Cell_8x8_Dump (&VRam[pattern_adr & 0xFFFF], pattern_pal);
 }
 
-
+/*
+ *обновление палитры
+ *VDP
+ */
 void
 Refresh_VDP_Palette (void)
 {
@@ -884,7 +935,10 @@ Refresh_VDP_Palette (void)
     }
 }
 
-
+/*
+ *обновление состояния
+ *SegaCD
+ */
 void
 Refresh_SegaCD_State (void)
 {
@@ -946,7 +1000,10 @@ Refresh_SegaCD_State (void)
   Print_Text (_GString, strlen (_GString), 162, 118, BLANC);
 }
 
-
+/*
+ *обновление состояния
+ *32X
+ */
 void
 Refresh_32X_State (void)
 {
@@ -986,7 +1043,10 @@ Refresh_32X_State (void)
   Print_Text (_GString, strlen (_GString), 162, 70, BLANC);
 }
 
-
+/*
+ *обновление состояния
+ *CDC
+ */
 void
 Refresh_CDC_State (void)
 {
@@ -1021,6 +1081,10 @@ Refresh_Word_Ram_Pattern (void)
 }
 
 
+/*
+ *обновление 
+ *окна отладки
+ */
 void
 Update_Debug_Screen (void)
 {

@@ -34,11 +34,32 @@
 #include "gym.h"
 #include "support.h"
 int Debug;
+/*
+ * Флаг пропуска
+ * кадров
+ *
+ * @var int Frame_Skip
+ */
 int Frame_Skip;
 int Frame_Number;
 int DAC_Improv;
+/*
+ * макс. значение компоненты цвета R
+ *
+ * @var int RMax_Leve
+ */
 int RMax_Level;
+/*
+ * макс. значение компоненты цвета G
+ *
+ * @var int GMax_Level
+ */
 int GMax_Level;
+/*
+ * макс. значение компоненты цвета B
+ *
+ * @var int BMax_Level
+ */
 int BMax_Level;
 int Contrast_Level;
 int Brightness_Level;
