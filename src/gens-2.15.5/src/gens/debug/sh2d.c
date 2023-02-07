@@ -1,6 +1,6 @@
 /*
  * sh2d
- * Bart Trzynadlowski, July 24, 2000
+ * Bart Trzynadlowski, July 24, 2000 ultra cool guy
  * Public domain
  */
 
