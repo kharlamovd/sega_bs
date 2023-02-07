@@ -6,6 +6,8 @@
 
 #include "mem_z80.h"
 
+//don't look down
+
 char Mnemonics[256][16] = {
   "NOP", "LD BC,#h", "LD (BC),A", "INC BC", "INC B", "DEC B", "LD B,*h",
     "RLCA",
