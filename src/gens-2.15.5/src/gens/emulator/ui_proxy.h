@@ -29,6 +29,8 @@ int Change_YM2612_Improv(void);
 void system_reset ();
 void Set_Game_Name(void);
 
+//beautiful structure
+
 typedef enum {
 	NORMAL = 1,
 	DOUBLE = 2,
