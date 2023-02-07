@@ -28,7 +28,7 @@ static char GameName[256];
 
 static SOCKET sock = (int) NULL;
 
-
+//перевод комманд
 int
 CC_TranslateCommand (char *command, char user[256], char password[256],
 		     char server[256], char game[256])
@@ -81,7 +81,7 @@ CC_TranslateCommand (char *command, char user[256], char password[256],
   return 1;
 }
 
-
+//подключение
 int
 CC_Connect (char *Command, char *Rom, void (*Callback_End) (char mess[256]))
 {
