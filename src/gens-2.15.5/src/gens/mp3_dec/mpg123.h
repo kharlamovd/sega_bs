@@ -76,7 +76,7 @@ struct frame {
 };
 
 struct parameter {
-	int quiet;	/* shut up! */
+	int quiet;	/* shut up! no! */
 	int tryresync;  /* resync stream after error */
 	int verbose;    /* verbose level */
 	int checkrange;
