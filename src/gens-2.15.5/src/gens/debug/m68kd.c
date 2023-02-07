@@ -11,6 +11,7 @@ static char Dbg_Cond_Str[3];
 static unsigned short (*Next_Word) ();
 static unsigned int (*Next_Long) ();
 
+//m68kd debug
 
 char *
 Make_Dbg_EA_Str (int Size, int EA_Num, int Reg_Num)
