@@ -19,7 +19,7 @@
 #define SEGACD  2
 
 /*** global variables ***/
-
+//перечень структур
 struct S68000CONTEXT Context_68K;
 
 struct STARSCREAM_PROGRAMREGION M68K_Fetch[] = {
@@ -105,7 +105,7 @@ S68K_Reset_Handler ()
 
 
 /*** M68K_Init - initialise the main 68K ***/
-
+//инициация работы на разных процессорах
 int
 M68K_Init (void)
 {
