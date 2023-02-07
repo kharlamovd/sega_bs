@@ -57,7 +57,12 @@ char SRAM_Dir[1024] = "";
 char BRAM_Dir[1024] = "";
 unsigned char State_Buffer[MAX_STATE_FILE_LENGHT];;
 
-
+/*
+ * Change_File_S  - сохранение
+ *
+ * @param char *Dest
+ * @param char *Dir
+ */
 int
 Change_File_S (char *Dest, char *Dir)
 {
@@ -84,7 +89,12 @@ Change_File_S (char *Dest, char *Dir)
   return 0;
 }
 
-
+/*
+ * Change_File_L  - загрузка
+ *
+ * @param char *Dest
+ * @param char *Dir
+ */
 int
 Change_File_L (char *Dest, char *Dir)
 {
