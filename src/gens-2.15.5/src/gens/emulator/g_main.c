@@ -33,7 +33,7 @@
 
 GtkWidget *gens_window = NULL;
 int fast_forward = 0;
-
+//глобальные пути
 POINT Window_Pos;
 char Str_Tmp[1024];
 char Start_Rom[1024];
@@ -41,7 +41,7 @@ char Gens_Path[1024];
 char Language_Path[1024];
 char CGOffline_Path[1024];
 char Manual_Path[1024];
-
+//системные флаги
 char **language_name = NULL;	//NULL is NULL
 int Active = 1;
 int Paused = 0;
