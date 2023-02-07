@@ -9,6 +9,7 @@
 #include "support.h"
 #include "interface.h"
 #include "timer.h"
+//системные команды ввода-вывода
 unsigned long
 GetTickCount ()
 {
