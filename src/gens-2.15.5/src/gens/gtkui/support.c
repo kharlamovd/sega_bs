@@ -2,13 +2,13 @@
 #  include <config.h>
 #endif
 
+//подключение библиотек
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <gtk/gtk.h>
-
 #include "support.h"
 #include "interface.h"
 #include "ym2612.h"
