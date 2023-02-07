@@ -32,7 +32,7 @@
 #include "vdp_32x.h"
 #include "lc89510.h"
 #include "cd_aspi.h"
-
+//глобальные переменные
 int Current_32X_FB = 0;
 int adr_mem = 0, nb_inst = 1, pattern_adr = 0, pattern_pal;
 int Current_PC;
@@ -42,7 +42,7 @@ char Dbg_Str[32];
 char Dbg_EA_Str[16];
 char Dbg_Size_Str[3];
 char Dbg_Cond_Str[3];
-
+//основной ивент отладки
 void
 Debug_Event (int key)
 {
