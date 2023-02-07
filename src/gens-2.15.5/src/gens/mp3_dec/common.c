@@ -242,6 +242,8 @@ print_header_compact (struct frame *fr)
 
 #endif
 
+//i don't know what it is
+
 unsigned int
 getbits (int number_of_bits)
 {
