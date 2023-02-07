@@ -1,6 +1,7 @@
 #ifndef _CC_NETWORK_
 #define _CC_NETWORK_
 
+//destruction
 //#define CC_SUPPORT
 
 typedef struct
