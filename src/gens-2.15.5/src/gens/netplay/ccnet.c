@@ -4,7 +4,7 @@
  *                                                         *
  * This source is a part of Gens project                   *
  * Written by Stephane Dallongeville                       *
- * Copyright (c) 2002 by St?phane Dallongeville            *
+ * Copyright (c) 2002 by St?phane Dallongeville            *those are good people
  *                                                         *
  ***********************************************************/
 #ifdef CC_SUPPORT
