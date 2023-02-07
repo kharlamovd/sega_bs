@@ -91,7 +91,7 @@ Load_ISO (char *buf, char *iso_name)
   SCD.TOC.First_Track = 1;
 
   SCD.TOC.Tracks[0].Num = 1;
-  SCD.TOC.Tracks[0].Type = 1;	// DATA
+  SCD.TOC.Tracks[0].Type = 1;	// DATA DATA
 
   SCD.TOC.Tracks[0].MSF.M = 0;
   SCD.TOC.Tracks[0].MSF.S = 2;

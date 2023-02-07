@@ -15,6 +15,7 @@ unsigned int Current_OUT_Size;
 
 char buf_out[8 * 1024];
 
+//frequencies
 int freqs_mp3[9] = { 44100, 48000, 32000,
   22050, 24000, 16000,
   11025, 12000, 8000
