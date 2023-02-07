@@ -57,7 +57,7 @@ char SRAM_Dir[1024] = "";
 char BRAM_Dir[1024] = "";
 unsigned char State_Buffer[MAX_STATE_FILE_LENGHT];;
 
-
+//перемещение файла в папку
 int
 Change_File_S (char *Dest, char *Dir)
 {
