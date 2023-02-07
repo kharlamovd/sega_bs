@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "port.h"
-#include "cd_aspi.h"		// this include cd_sys.h
+#include "cd_aspi.h"		// this include cd_sys.h ok
 #include "cd_file.h"
 #include "gens.h"
 #include "g_sdlsound.h"
