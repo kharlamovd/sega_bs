@@ -8,6 +8,8 @@
  * The performance is highly compiler dependend. Maybe
  * the decode.c version for 'normal' processor may be faster
  * even for Intel processors.
+ 
+	as you say, whatever
  */
 
 #include <stdlib.h>
