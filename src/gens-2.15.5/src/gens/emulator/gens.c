@@ -45,7 +45,7 @@ int Brightness_Level;
 int Greyscale;
 int Invert_Color;
 
-unsigned char CD_Data[1024];	// Used for hard reset to know the game name
+unsigned char CD_Data[1024];	// Used for hard reset to know the game name and probably reset it
 
 
 int
