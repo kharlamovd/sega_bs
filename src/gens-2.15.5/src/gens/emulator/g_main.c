@@ -42,7 +42,7 @@ char Language_Path[1024];
 char CGOffline_Path[1024];
 char Manual_Path[1024];
 
-char **language_name = NULL;
+char **language_name = NULL;	//NULL is NULL
 int Active = 1;
 int Paused = 0;
 int Net_Play = 0;

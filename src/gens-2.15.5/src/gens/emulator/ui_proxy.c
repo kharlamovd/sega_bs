@@ -24,6 +24,8 @@
 
 _filters filters;
 
+//what is it??
+
 void
 save_state ()
 {
