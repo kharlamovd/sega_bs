@@ -5,6 +5,8 @@
  * The performance is highly compiler dependend. Maybe
  * the dct64.c version for 'normal' processor may be faster
  * even for Intel processors.
+ 
+	okay, fine
  */
 
 #include "mpg123.h"
