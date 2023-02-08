@@ -46,7 +46,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="image.jpg"/>
+          <imagedata fileref="img/image.jpg"/>
         </imageobject>
 
         <textobject>
@@ -128,7 +128,7 @@ Change_File_L (char *Dest, char *Dir)
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="netplay.jpg"/>
+          <imagedata fileref="img/netplay.jpg"/>
         </imageobject>
 
         <textobject>
@@ -203,13 +203,7 @@ Init_Network (void)
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="image.jpg"/>
-        </imageobject>
-      </mediaobject>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="cd.png"/>
+          <imagedata fileref="img/cd.png"/>
         </imageobject>
 
         <textobject>

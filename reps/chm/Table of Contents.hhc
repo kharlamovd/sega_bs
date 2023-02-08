@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Icirc;&aacute;&ugrave;&aring;&aring;">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Acirc;&acirc;&aring;&auml;&aring;&iacute;&egrave;&aring;">
+			<param name="Local" value="intro.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Icirc;&iuml;&egrave;&ntilde;&agrave;&iacute;&egrave;&aring;">
+			<param name="Local" value="description.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Igrave;&aring;&iacute;&thorn;">
+			<param name="Local" value="menu.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Iuml;&eth;&egrave;&igrave;&aring;&eth;&ucirc; &egrave;&atilde;&eth;">
+			<param name="Local" value="games.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Egrave;&atilde;&eth;&icirc;&acirc;&icirc;&aring;">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Egrave;&atilde;&eth;&agrave;">
+			<param name="Local" value="game.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Egrave;&atilde;&eth;&agrave; &iuml;&icirc; &ntilde;&aring;&ograve;&egrave;">
+			<param name="Local" value="netplay.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Sega CD">
+			<param name="Local" value="segacd.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Auml;&icirc;&iuml;&icirc;&euml;&iacute;&egrave;&ograve;&aring;&euml;&uuml;&iacute;&icirc;">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Iuml;&icirc;&auml;&auml;&aring;&eth;&aelig;&ecirc;&agrave;">
+			<param name="Local" value="support.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Aacute;&euml;&agrave;&atilde;&icirc;&auml;&agrave;&eth;&iacute;&icirc;&ntilde;&ograve;&egrave;">
+			<param name="Local" value="peeps.html">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>
